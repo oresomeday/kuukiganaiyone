@@ -234,7 +234,7 @@
         }
         
         .spin-button:hover {
-            transform: translateY(-2px);
+            (-2px);
             box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
         }
         
@@ -296,11 +296,11 @@
         
         @keyframes confettiFall {
             0% { 
-                transform: translateY(-100vh) rotate(0deg);
+                (-100vh) rotate(0deg);
                 opacity: 1;
             }
             100% { 
-                transform: translateY(100vh) rotate(360deg);
+                (100vh) rotate(360deg);
                 opacity: 0;
             }
         }
@@ -348,13 +348,13 @@
             white-space: pre-line;
             /* 自動スクロール用 */
             animation: scrollUp 20s linear infinite;
-            transform: translateY(0);
+            transform: translateY(100);
         }
         
         /* 自動スクロールアニメーション */
         @keyframes scrollUp {
             0% {
-                transform: translateY(０);
+                transform: translateY(100);
             }
             100% {
                 transform: translateY(-100%);
