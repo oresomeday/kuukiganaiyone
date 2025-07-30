@@ -348,13 +348,13 @@
             white-space: pre-line;
             /* 自動スクロール用 */
             animation: scrollUp 20s linear infinite;
-            transform: translateY(50vh);
+            transform: translateY(0);
         }
         
         /* 自動スクロールアニメーション */
         @keyframes scrollUp {
             0% {
-                transform: translateY(50vh);
+                transform: translateY(０);
             }
             100% {
                 transform: translateY(-100%);
